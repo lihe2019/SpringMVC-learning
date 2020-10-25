@@ -14,6 +14,9 @@
         <module>springmvc-03-annotation</module>
         <module>springmvc-04-controller</module>
         <module>springmvc-05-json</module>
+        <module>springmvc-06-ajax</module>
+        <module>springmvc-07-interceptor</module>
+        <module>springmvc-08-file</module>
     </modules>
 
     <dependencies>
@@ -23,11 +26,11 @@
             <version>4.12</version>
         </dependency>
 
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>servlet-api</artifactId>
-            <version>2.5</version>
-        </dependency>
+        <!--<dependency>-->
+        <!--    <groupId>javax.servlet</groupId>-->
+        <!--    <artifactId>servlet-api</artifactId>-->
+        <!--    <version>2.5</version>-->
+        <!--</dependency>-->
 
         <dependency>
             <groupId>org.springframework</groupId>
@@ -66,6 +69,21 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.60</version>
+        </dependency>
+
+
+
+        <!--文件上传-->
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.3.3</version>
+        </dependency>
+        <!--servlet-api导入高版本的-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
         </dependency>
 
 

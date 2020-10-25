@@ -115,6 +115,36 @@ Spring：大杂烩，我们可以将SpringMVC中所有要用到的Bean，注册�
 
 
 
-
-
 需求分析
+
+
+
+jQuary是一个库；js的大量函数（方法）cdn
+
+
+
+异步无刷新请求
+
+
+
+HTML + css略懂 + js（熟练）
+
+js：
+
+- 函数：闭包（）（）
+- Dom
+  - id，name，tag
+  - create ， remove
+- Bom
+  - window
+  - document。title。next。。。。
+
+ES6：import， require
+
+
+
+
+
+Struct2就有拦截器了
+
+就像现在的过滤器
